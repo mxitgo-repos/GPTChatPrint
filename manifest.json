@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Print your Chat(GPT)",
+    "version": "1.0",
+    "description": "Print your ChatGPT conversation",
+    "permissions": ["scripting", "activeTab"],
+    "action": {
+      "default_icon": "icon.png"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
