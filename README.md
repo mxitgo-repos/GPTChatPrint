@@ -10,3 +10,7 @@ Alternatively, you can directly open extensions by entering chrome://extensions 
 Enable developer mode.
 Click on "Load Unpacked" and choose the unzipped folder.
 It is important to select the folder that contains the manifest file. In the screenshot provided, the installer folder inside the unzipped folder has been selected as it is the installer folder for the extension.
+
+You can also access the extension in the Google Chrome Web Store here:
+
+https://chrome.google.com/webstore/detail/print-your-chatgpt/nialkofmnpkjpcdlaljfdjhbjpemcpdh
