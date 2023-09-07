@@ -9,7 +9,7 @@ function copyComputedStyles(src, dest) {
     }
   }
   
-  var tagSelector = 'div.flex.flex-col.items-center.text-sm.dark\\:bg-gray-800';
+  var tagSelector = 'div.flex.flex-col.text-sm.dark\\:bg-gray-800';
   
   var tag = document.querySelector(tagSelector);
   if (tag && tag.offsetHeight >= 250) {
